@@ -4,22 +4,22 @@ Desenvolver um sistema interativo para um jogo que permite o cadastro de guerrei
 O sistema deve permitir o cadastro de diferentes tipos de guerreiros (Espadachim e Arqueiro), derivados da classe base Guerreiro.
 
 Guerreiro
-nome (string): Nome do guerreiro.
-forca (int): Força física do guerreiro.
-vidas (int): Quantidade de vidas do guerreiro.
+##### nome (string): Nome do guerreiro.
+##### forca (int): Força física do guerreiro.
+##### vidas (int): Quantidade de vidas do guerreiro.
 
 Todos os atributos são protegidos, com métodos getters e setters.
 O construtor deve garantir que a classe só Inicializa com o nome e as vidas do grerreiro
 
 Espadachim
-habilidadeEspada (int): Habilidade com espadas.
-velocidade (int): Velocidade de ataque.
+##### habilidadeEspada (int): Habilidade com espadas.
+##### velocidade (int): Velocidade de ataque.
 
 Arqueiro
-habilidadeArco (int): Habilidade com arcos.
-alcance (int): Alcance do ataque.
+##### habilidadeArco (int): Habilidade com arcos.
+##### alcance (int): Alcance do ataque.
 
-Classe MenuResponsável por apresentar opções do programa.
+Classe Menu Responsável por apresentar opções do programa.
 Opções: 1 - Criar Espadachim, 2 - Criar Arqueiro, 0 - Sair.
 
 Classe AppDeve manter um array para cada tipo de guerreiro cadastrado.
