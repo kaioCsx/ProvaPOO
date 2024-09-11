@@ -1,5 +1,5 @@
 # ProvaPOO
-PRIMEIRA ETAPA:
+### PRIMEIRA ETAPA:
 Desenvolver um sistema interativo para um jogo que permite o cadastro de guerreiros, utilizando os conceitos de orientação a objetos.
 O sistema deve permitir o cadastro de diferentes tipos de guerreiros (Espadachim e Arqueiro), derivados da classe base Guerreiro.
 
@@ -26,7 +26,7 @@ Classe AppDeve manter um array para cada tipo de guerreiro cadastrado.
 Deve instanciar e utilizar a classe Menu para iniciar a interação do usuário.
 
 
-SEGUNDA ETAPA:
+### SEGUNDA ETAPA:
 Expandir um sistema de jogo para incluir três novos tipos de guerreiros, utilizando os conceitos de orientação a objetos, e atualizar a interação do usuário para gerenciar essas novas classes.
 
 Baseando-se no sistema existente que gerencia guerreiros, vocês deverão criar três novas subclasses da classe Guerreiro com no mínimo 2 atributos cada. Além disso, devem atualizar as classes Menu e App para incluir as novas funcionalidades.
